@@ -1,0 +1,21 @@
+cls: 'SimpleDictRetrieval'
+num_train: 350
+num_eval: 150
+tokenizer: 'llama'
+data_kwargs:
+  num_dicts: 85
+  gold_dict_size: 3
+  dict_size_range: !!python/tuple [3, 4]
+  gold_key_idx: -1
+  subkey_size_range: !!python/tuple [3, 4]
+  val_size_range: !!python/tuple [3, 4]
+  subkey_param: 'numerical'
+  val_param: 'numerical'
+task_kwargs:
+  prompt_name: 'form2_unshuffled_singlesk'
+  max_token: 4096
+  name_random: False
+frac_0: 0.05
+frac_top5: 0.03
+alias: 'simpledict_ndicts85_34_ntemplate_ordered_5_3'
+name_str: simpledict_ndicts85_gd3_drange3-4_skrange3-4_vrange3-4_pname-form2_unshuffled_singlesk_nran-False

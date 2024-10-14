@@ -1,0 +1,5 @@
+Do a task using the list of dictionaries below.
+
+{disctionaries}
+
+Above is a list of dictionaries such that each key and value is an integer. Report the value of key {gold_key_str} and the dictionary it is in.
